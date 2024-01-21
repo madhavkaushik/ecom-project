@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent {
+  constructor() {}
 
+  ngOnInit(): void {}
+  
+  signUp(data:object):void{
+    console.warn(data)
+  }
 }
